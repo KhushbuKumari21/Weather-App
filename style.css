@@ -1,0 +1,22 @@
+/* Custom styles for Weather Forecast App */
+
+/* Set a clean font for the entire app */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure the city input box has a reasonable minimum width */
+#cityInput {
+  min-width: 200px;
+}
+
+/* Smooth transition effects on weather results container for nicer UX */
+#weatherResult {
+  transition: all 0.3s ease;
+}
+
+/* Visual feedback when buttons are disabled during API calls */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
