@@ -1,15 +1,22 @@
 **Weather Forecast App**
 A simple and responsive web application that provides current weather and a 5-day weather forecast using the OpenWeatherMap API. Users can search by city name or use their current location. The app also stores recent searches and displays weather conditions with appropriate icons.
 
-
-**Features**
-Search weather by city name
-Get weather using current location (geolocation)
-Dropdown menu for recently searched cities (up to 5)
-5-day weather forecast with date, temperature, wind speed, humidity, and weather icons
-Responsive design supporting desktop, iPad Mini, and iPhone SE screen sizes
-Input validation and error handling with clear messages
-Styled using Tailwind CSS along with custom CSS for better user experience
+# Features
+- Search weather by **city name**.
+- Get weather using **current location** (Geolocation API).
+- Dropdown menu for **recently searched cities** (up to 5), stored in **localStorage**.
+- 5-day weather forecast with:
+  - Date
+  - Temperature
+  - Wind speed
+  - Humidity
+  - Weather icons
+- Fully responsive design for:
+  - Desktop
+  - iPad Mini
+  - iPhone SE
+- Input validation and clear error handling.
+- Styled using Tailwind CSS + custom CSS.
 
 **Technologies Used**
 HTML5
@@ -19,7 +26,7 @@ OpenWeatherMap API
 
 **Setup and Usage**
 # 1.Clone the repository:
-git clone https://github.com/KhushbuKumari21/Weather-App.git
+git clone https://github.com/KhushbuKumari21/Weather-App
 cd Weather-App
 
 # 2.Get an OpenWeatherMap API key:
@@ -57,7 +64,7 @@ git commit -m "Initial commit for weather forecast app"
 # Set branch name
 git branch -M main
 # Add GitHub remote
-git remote add origin https://github.com/KhushbuKumari21/Weather-App.git
+git remote add origin https://github.com/KhushbuKumari21/Weather-App
 # Push to GitHub
 git push -u origin main
 
